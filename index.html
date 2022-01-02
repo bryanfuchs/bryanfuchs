@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dopefolio</title>
+    <meta name="description" content="Mechanical Engineering Portfolio" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/WebsitePhoto.png"
+              alt="Bryan Fuchs Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Bryan Fuchs</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Bing Bong, it's Bryan Fuchs</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            I'm a Mechanical & Aerospace Engineering Major at Cornell University. I've spent the last few years working on various 
+            projects and am using this platform to showcase some of my proudest works. Thanks for stopping by!
+          </p>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/bfuchs1399/" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://www.instagram.com/zerofuchsgiven_/?hl=en"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/png/insta-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Baja Projects</span>
+          <span class="heading-sec__sub">
+            I joined <a href="https://baja.mae.cornell.edu/"><strong>Cornell Baja Racing</strong></a> my freshman fall, and have been an active member ever since. 
+            Currently, I hold the position of <a href="https://baja.mae.cornell.edu/team.html"><strong>Brakes Sub-team Lead</strong></a> for the 21-22 school year. Previously, I was on the suspension sub-team. 
+            The projects I have completed involved bringing a concept to life through the use of SolidWorks, 
+            analyzing stress and deformation through Finite-Element Analysis (ANSYS), and finally manufacturing with the use of machine shop equipment.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/Project/Caliper.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Brake Calipers</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+              <a
+                href="./Caliper.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >No Zoom Zoom</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/Project/FrontUpright.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Front Uprights</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+              <a
+                href="./project-2.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Zoom Zoom</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/Project/CaliperBracket.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Brake Caliper Bracket</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+              <a
+                href="./project-3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Vroom Vroom</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects2" class="projects2 sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Course Projects</span>
+          <span class="heading-sec__sub">
+            I am fortunate to be able to apply engineering fundamentals to <a href="https://www.mae.cornell.edu/mae"><strong>Course Projects</strong></a>.
+            For these projects, I collaborated with my fellow classmates to bring a product from ideation to creation through the utilization of design reviews, 
+            mathematical calculations, and user interviews. These projects enabled me to get a glimpse of real life product design procedures and 
+            the careful thought that goes into each step along the way.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/Project/WaterPump.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Water Pump</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+              <a
+                href="./project-4.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Splish Splash</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/Project/Dennis.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Mechatronics Robot Competiton</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+              <a
+                href="./project-5.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >The Menace</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/Project/TriWheel.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Tri-Wheel Automated Food Delivery Bot</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+              <a
+                href="./project-6.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Stair Conqueror</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/Project/Moisture.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Self Moisturizer Dispenser (S.M.D)</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+              <a
+                href="./project-7.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Goodbye Germs</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            <p class="">Howdy, my name is <strong> Bryan Fuchs </strong> and I’m a Junior studying <strong>Mechanical Engineering at Cornell University</strong>. I was born in Singapore but spent my teenage years in Austin, Texas.
+              I am especially interested in automotives, rapid prototyping, product testing, and the intersection of applying aesthetics to engineering.</p>
+            <br>
+              <p>Through the years of academia and exploring different projects, I have found that I learn and excel best in hands on applications, and constantly seek to apply subject fundamentals to extracurricular projects. 
+              I love to collaborate with my peers in hopes of achieving the best possible result, and a creative problems are some of my favorite problems to attempt.</p>
+            <br>
+            <p>The purpose of this website is to show people the projects I’ve spent countless hours perfecting and manufacturing. 
+              Hopefully, I am able to frame some of the skills I’ve picked up over the past few years, as well as document my passions and interests to share with
+              friends and family. </p>
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                I love connecting with people and am always down to have a chat, feel free to <strong>CONNECT</strong> with me or take a look at my <strong>RESUME</strong>.
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >LinkedIn</a
+            >
+            <a href=x class="btn btn--med btn--theme dynamicBgClr"
+            > Resume </a> 
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">SolidWorks</div>
+              <div class="skills__skill">ANSYS Workbench</div>
+              <div class="skills__skill">Fusion 360</div>
+              <div class="skills__skill">CAM</div>
+              <div class="skills__skill">CNC</div>
+              <div class="skills__skill">Milling</div>
+              <div class="skills__skill">Lathing</div>
+              <div class="skills__skill">CAD Drawings</div>
+              <div class="skills__skill">C++</div>
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">Matlab</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h1 class="heading-sm">Bryan Fuchs - Recruiting for Fall 22' Co-Op</h1>
+            <p class="main-footer__short-desc">
+              Mechanical & Aerospace Engineering @ Cornell University 23'
+            </p>
+            <p>GPA: 3.62</p>
+            <p>Dean's List: Spring 21', Fall 21'</p> 
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Edited by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Bryan Fuchs</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
