@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Brake Caliper Summary</title>
+    <meta name="description" content="Case study page of Project" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/WebsitePhoto.png"
+              alt="WebsitePhoto"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Bryan Fuchs</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Suspension Uprights</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            My project for my sophomore year on Cornell Baja Racing was to redesign and improve the Suspension Uprights. The main goal was to 
+            incorporate a spherical bearing over the ball joints that were used the previous season. Therefore, the entire Upright had to be redesigned
+            and the end result saw a 20% reduction in weight while improving packaging in all four corners of the car.
+          </p>
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="./assets/CaliperTechReport.pdf" class="btn btn--bg" target="_blank">Suspension Upright Technical Report</a>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/png/Project/Upright/UprightFinalCADFront.PNG"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                My redesign of the calipers were a custom fixed caliper that utilized identical pistons in each caliper. This meant that there would only need to be
+                one version of the caliper manufactured for all applications on the car. Last year, we had 3 unique calipers on the car. With my design, the car would
+                be equipped with 1 unique caliper which significantly reduces manufacturing, servicing, and design time. This was a huge improvement to the previous
+                system. Additionally, the caliper was designed after all purchaseable components were sourced which meant that there were constraints that had to be
+                designed around. This proved to be challenging because of packaging concerns in the corners as well as the rear gearbox. Nonetheless, I worked hard 
+                alongside my fellow teammates and accomplished inboard braking as well as similar calipers to be used on both left and right corners.
+              </p>
+              <h3 class="project-details__content-title">SolidWorks</h3>
+              <p class="project-details__desc-para">
+                Attached are final SolidWorks screen captures of the final design. The custom Upright underwent a complete
+                redesign.
+              </p>
+              <div class="row">
+                <div class="column">
+                  <img src="./assets/png/Project/Upright/UprightFinalCADFront.PNG" alt="Snow" style="width:100%">
+                  <figcaption>Fig.1 - Finalized CAD of Front Uprights</figcaption>
+                </div>
+                <div class="column">
+                  <img src="./assets/png/Project/Upright/UprightFinalCADRear.PNG" alt="Forest" style="width:100%">
+                  <figcaption>Fig.2 - Finalized CAD of Front Uprights (Rear side)</figcaption>
+                </div>
+              </div>
+              </div>
+              <br>
+              <h3 class="project-details__content-title">Finite Element Analysis</h3>
+              <p class="project-details__desc-para">
+                The Upright model was analyzed under different scenarios in a collision - Curb Slam, Tree Toast, Landing, and Braking.
+                Additionally, these scenarios were combined to analyze the car in a more realistic situation.
+              </p>
+              <figure>
+                <img class=ANSYS src="./assets/png/Project/Upright/UprightLanding.png"
+                     alt="Inboard Final ANSYS">
+                <figcaption>Fig. 3 - Upright Landing ANSYS</figcaption>
+            </figure>
+            <br>
+            <figure>
+              <img class = ANSYS src="./assets/png/Project/Upright/UprightCurbSlam.png"
+                   alt="Outboard Final ANSYS">
+              <figcaption>Fig. 4 - Upright Curb Slam ANSYS</figcaption>
+          </figure>
+          <figure>
+            <img class = ANSYS src="./assets/png/Project/Upright/UprightTreeToast.png"
+                 alt="Outboard Final ANSYS">
+            <figcaption>Fig. 5 - Upright Tree Toast ANSYS</figcaption>
+        </figure>
+        <figure>
+          <img class = ANSYS src="./assets/png/Project/Upright/UprightBraking.png"
+               alt="Outboard Final ANSYS">
+          <figcaption>Fig. 6 - Upright Braking ANSYS</figcaption>
+      </figure>
+      <figure>
+        <img class = ANSYS src="./assets/png/Project/Upright/UprightCurbSlamBraking.png"
+             alt="Outboard Final ANSYS">
+        <figcaption>Fig. 7 - Upright Curb Slam + Braking ANSYS</figcaption>
+    </figure>
+    <figure>
+      <img class = ANSYS src="./assets/png/Project/Upright/UprightCurbSlamLanding.png"
+           alt="Outboard Final ANSYS">
+      <figcaption>Fig. 8 - Upright Curb Slam + Landing ANSYS</figcaption>
+  </figure>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Assemblies</h3>
+              <p class="project-details__desc-para">
+                The most challenging part of the process was ensuring that the clearance betweeen the Caliper and all integrating parts were within tolerance.
+                For this season's design, the limiting factor was between the caliper and the hub arm extensions for the rotor mounting bolts. With the deflection the
+                hubs saw due to a crash analysis, the deformation was greater than the clearance between the two components. With that, I had to change the design of
+                my caliper to ensure the necessary clearance was obtained. </p>
+                <figure>
+                  <img src="./assets/png/Project/Upright/FrontCornerAssembly.PNG"
+                       alt="Fig 9 - Front Right Corner Assembly (Outboard)" width="120%">
+                  <figcaption>Fig 9 - Front Right Corner Assembly (Outboard)</figcaption>
+              </figure>
+              <br>
+              <figure>
+                <img src="./assets/png/Project/Upright/FrontCornerAssembly2.PNG"
+                     alt="Fig 10 - Front Right Corner Assembly (Inboard)" width="120%">
+                <figcaption>Fig 10 - Front Right Corner Assembly (Inboard)</figcaption>
+            </figure>
+            </div>
+            <h3 class="project-details__content-title">CAD Drawings</h3>
+              <p class="project-details__desc-para">
+                To ensure the proper tolerances were met during manufacturing, CAD Drawings had to be made for the machinist. </p>
+                <figure>
+                  <img class = cad src="./assets/png/Project/Upright/CADDrawingFrontRight.png"
+                       alt="Fig XX - Rear Gearbox and Caliper Assembly" width="100%">
+                  <figcaption>Fig 11 - CAD Drawing of Front Upright (Right)</figcaption>
+              </figure>
+              <br>
+              <figure>
+                <img class = cad src="./assets/png/Project/Upright/CADDrawingFrontLeft.png"
+                     alt="Fig 12 - CAD Drawing of Front Upright (Left)" width="100%">
+                <figcaption>Fig 12 - CAD Drawing of Front Upright (Left)</figcaption>
+            </figure>
+            <figure>
+              <img class = cad src="./assets/png/Project/Upright/CADDrawingRearRight.png"
+                   alt="Fig 13 - CAD Drawing of Rear Upright (Right)" width="100%">
+              <figcaption>Fig 13 - CAD Drawing of Rear Upright (Right)</figcaption>
+          </figure>
+          <br>
+          <figure>
+            <img class = cad src="./assets/png/Project/Upright/CADDrawingRearLeft.png"
+                 alt="Fig 14 - CAD Drawing of Rear Upright (Left)" width="100%">
+            <figcaption>Fig 14 - CAD Drawing of Rear Upright (Left)</figcaption>
+        </figure>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">SolidWorks</div>
+                <div class="skills__skill">ANSYS Workbench</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">Final Product</h3>
+              <p class="project-details__desc-para">
+                The Upright was successfully manufactured and competed in the '20-'21 Baja Competition Season. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h1 class="heading-sm">Bryan Fuchs - Recruiting for Fall 22' Co-Op</h1>
+            <p class="main-footer__short-desc">
+              Mechanical & Aerospace Engineering @ Cornell University 23'
+            </p>
+            <p>GPA: 3.62</p>
+            <p>Dean's List: Spring 21', Fall 21'</p> 
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Edited by
+          <a rel="noreferrer" target="_blank" href=""
+            >Bryan Fuchs</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

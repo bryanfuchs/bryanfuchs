@@ -668,10 +668,14 @@ figcaption {
   font-size: 15px;
 }
 
-img.scaled {
+.scaled {
   width: 110%;
 }
 
-img.ANSYS{
-  width: 150%
+.ANSYS{
+  width: 125%
+}
+
+.cad{
+  border: 5px solid black;
 }
